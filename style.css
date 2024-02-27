@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    /* Remove default margin for full-height gradient */
+    background: linear-gradient(to top, #2ECC71, #007bff);
+    /* Green to blue gradient */
+    min-height: 100vh;
+    /* Set minimum height for full screen */
+    display: flex;
+    /* Center content vertically */
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.big-button {
+    font-size: 1.7rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ee0979, #ff6a00);
+    /* Initial gradient */
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.big-button:hover {
+    background: linear-gradient(to right, #ff6a00, #ee0979);
+    /* Reverse gradient on hover */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    /* Subtler shadow */
+}
+
+/* Gradients for each page (add more for page4 onwards) */
+.page2 .big-button {
+    background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+.page3 .big-button {
+    background: linear-gradient(to right, #2193b0, #6dd5ed);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3f51b5;
+}
